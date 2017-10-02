@@ -13,4 +13,10 @@ class BankAccount
     self.balance += amount
   end
 
+  def display_balance(display)
+    "Your balance is $#{name.balance}."
+  end
+
+
+
 end
