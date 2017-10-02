@@ -15,3 +15,4 @@ class Transfer
     balance.sender > 0 && status.sender == "open"
     balance.receiver > 0 && status.receiver == "open"
 end
+end
