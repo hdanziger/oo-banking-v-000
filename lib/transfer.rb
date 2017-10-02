@@ -8,4 +8,5 @@ class Transfer
     @sender = sender
     @reciever = reciever
     @transfer_amount = transfer_amount
+  end
 end
