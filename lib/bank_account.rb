@@ -18,10 +18,10 @@ class BankAccount
   end
 
   def valid?
-    if balance < 0
-      true
-    else
+    if balance > 0
       false
+    else
+      true
     end
   end
 
